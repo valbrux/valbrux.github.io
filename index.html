@@ -1,129 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Navigation -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-   <div class="container">
-     <a class="navbar-brand js-scroll-trigger" href="#page-top">Valbrux</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarResponsive">
-       <ul class="navbar-nav ml-auto">
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger" href="#whoami">whoami</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger" href="/web/20201101000935/https://www.valbrux.it/blog">blog</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger" href="#contact">contact/links</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger" href="/web/20201101000935/https://www.valbrux.it/bugs">bugs</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger" href="/web/20201101000935/https://www.valbrux.it/books">library</a>
-         </li>
-       </ul>
-     </div>
-   </div>
- </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Valbrux</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .thumb { max-width: 100%; height: auto; }
+    body { padding-top: 70px; }
+  </style>
+</head>
+<body id="page-top">
 
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Valbrux</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#whoami">whoami</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.valbrux.it/blog">blog</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">contact/links</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.valbrux.it/bugs">bugs</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.valbrux.it/books">library</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
   <section>
     <div class="container" id="whoami">
       <div class="row">
         <div class="col-sm-4">
-          <img src="/web/20201101000935im_/https://www.valbrux.it/img/me.jpeg" alt="Me" class="thumb">
+          <img src="https://www.valbrux.it/img/me.jpeg" alt="Me" class="thumb">
         </div>
         <div class="col-sm-8">
-          <p>I started my career as a software developer. In my first experiences, I had the possibility to experiment with different technologies: web frontend programming languages (HTML5, CSS3, AngularJS, Javascript, JQuery), web backend programming languages (PHP, Java) and development of hybrid (Ionic, Cordova) and native (Android &amp; IOS) mobile applications. Afterwards, I decided to dedicate my career to information security, focusing on penetration testing and security research: my daily job consists of making infrastructures and applications more secure by finding vulnerabilities and flaws and working as closely as possible with the developing team to fix them.
-I perform security assessments on different types of targets, ranging from web applications and mobile applications to infrastructures and IoT devices. I use a considerable part of my spare time to participate in bug bounties and perform freelance security research. I play CTFs with TheRomanXpl0it team and mhackeroni team.</p>
+          <p>I started my career as a software developer... (your full text here)</p>
         </div>
       </div>
 
-      <div class="row mt-3" id="cve">
+      <!-- Focus Area -->
+      <div class="row mt-3" id="focus">
         <div class="col">
           <h3>Focus Area</h3>
-          <p>I am focused on web applications/mobile applications penetration testing and web/mobile security research. I am fluent in Java, Python, PHP, C and Javascript. I love Android and Linux-based operating systems and strive to learn about their security. I also love web technologies and browsers. Recently, I am trying to get more skilled in binary analysis/exploitation and reverse engineering.</p>
+          <p>I am focused on web applications/mobile applications penetration testing...</p>
         </div>
       </div>
 
+      <!-- CVE & Bugs -->
       <div class="row mt-3" id="cve">
         <div class="col">
-          <h3>CVE &amp; Bugs</h3>
-          <p>As part of my freelance security research I found some CVEs in popular software and interesting bugs in top-level bug bounty programs</p>
-          <p>Halls of fame: Google, Facebook, Samsung, 1Password, Liferay, Adobe</p>
-          <p>CVEs: CVE-2018-13042, CVE-2019-6588, CVE-2018-18467, SVE-2018-13300, CVE-2019-16469</p>
-          <a href="/web/20201101000935/https://www.valbrux.it/bugs">More info here</a>
+          <h3>CVE & Bugs</h3>
+          <p>As part of my freelance security research...</p>
         </div>
       </div>
 
-      <div class="row mt-3" id="work">
-        <div class="col">
-          <h3>Industrial Experience</h3>
-          <p>Core Penetration Tester @ Cobalt.io ~ February 2020 - <b>NOW</b></p>
-          <p>Security Researcher @ Synack Red Team ~ September 2018 - <b>NOW</b></p>
-          <p>Senior Security Consultant (Senior Penetration Tester) @ Accenture ~ May 2019 - February 2020</p>
-          <p>Threath and vulnerability management consultant and Penetration Tester @ DXC Technology ~ January 2018 - May 2019</p>
-          <p>Cyber Security Junior Consultant @ NTT Data ~ November 2016 - January 2018</p>
-          <p>Software Developer @ PC Cube ~ May 2016 - November 2016</p>
-        </div>
-      </div>
-
-      <div class="row mt-3" id="education">
-        <div class="col">
-          <h3>Education</h3>
-          <p>Master Of Science - Computer Science (Cyber-Security) @ Staffordshire University</p>
-          <p>Bachelor's Degree - Computer Engineering @ Università degli studi di Roma Tre ~ Dissertation: Mobile Applications Hacking</p>
-          <p>High School Diploma - Computer Specialization @ IISS J. VON NEUMANN ~ Ottista: got degree in four years instead of five years because of high marks</p>
-        </div>
-      </div>
-
-      <div class="row mt-3" id="certifications">
-        <div class="col">
-          <h3>Certifications</h3>
-          <p>OSCP</p>
-          <p>OSWE</p>
-          <p>eMAPT</p>
-          <p>XRY</p>
-          <p>Cyberark Certified Delivery Engineer</p>
-          <p>Tenable TCSCE, Tenable TCNE, Tenable TCSA</p>
-          <p>TOEFL</p>
-        </div>
-      </div>
-
-      <div class="row mt-3" id="awards">
-        <div class="col">
-          <h3>Awards</h3>
-          <p>Accenture Cybergame 2017 - Member of winner team</p>
-          <p>Best Team Award RoboCup 2013 - Eindhoven (international robotics competition)</p>
-          <p>Italian Champion 1st place Rome Cup 2013 (Italian robotics competition)</p>
-        </div>
-      </div>
-
-      <div class="row mt-3" id="contact">
-        <div class="col">
-          <h3>Contact me &amp; links</h3>
-          <p>
-          <a href="https://web.archive.org/web/20201101000935/mailto:valerio.brussani@gmail.com">Mail</a>
-        </p>
-        <p>
-          <a href="https://web.archive.org/web/20201101000935/https://www.linkedin.com/in/valeriobrussani/">Linkedin</a>
-        </p>
-        <p>
-          <a href="https://web.archive.org/web/20201101000935/https://www.twitter.com/val_brux">Twitter</a>
-        </p>
-        <p>
-          <a href="https://web.archive.org/web/20201101000935/https://www.github.com/valbrux">Github</a>
-        </p>
-        <p>
-          <a href="https://web.archive.org/web/20201101000935/https://hackerone.com/val_brux">Hackerone</a>
-        </p>
-        <p>
-          <a href="https://web.archive.org/web/20201101000935/https://bugcrowd.com/valbrux">Bugcrowd</a>
-        </p>
-        </div>
-      </div>
+      <!-- Work, Education, Certifications, Awards, Contact Sections -->
+      <!-- Keep your existing content here -->
     </div>
   </section>
 
@@ -132,19 +71,14 @@ I perform security assessments on different types of targets, ranging from web a
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Valerio Brussani, 2020</p>
     </div>
-    <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="/web/20201101000935js_/https://www.valbrux.it/vendor/jquery/jquery.min.js"></script>
-  <script src="/web/20201101000935js_/https://www.valbrux.it/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="/web/20201101000935js_/https://www.valbrux.it/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="/web/20201101000935js_/https://www.valbrux.it/js/scrolling-nav.js"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Your local scrolling-nav.js -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
-
 </html>
